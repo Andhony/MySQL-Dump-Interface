@@ -8,3 +8,6 @@ c:\users\hp\documents\visual studio 2013\Projects\Segundo Parcial\Segundo Parcia
 c:\users\hp\documents\visual studio 2013\Projects\Segundo Parcial\Segundo Parcial\obj\Debug\Segundo Parcial.pdb
 c:\users\hp\documents\visual studio 2013\Projects\Segundo Parcial\Segundo Parcial\obj\Debug\Segundo_Parcial.GUI.Splash.resources
 c:\users\hp\documents\visual studio 2013\Projects\Segundo Parcial\Segundo Parcial\obj\Debug\Segundo_Parcial.GUI.PerfilesPrincipal.resources
+C:\Users\brise\OneDrive\Escritorio\Segundo Parcial\Segundo Parcial\bin\Debug\Segundo Parcial.exe.config
+C:\Users\brise\OneDrive\Escritorio\Segundo Parcial\Segundo Parcial\obj\Debug\Segundo Parcial.exe
+C:\Users\brise\OneDrive\Escritorio\Segundo Parcial\Segundo Parcial\obj\Debug\Segundo Parcial.pdb
