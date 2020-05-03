@@ -211,8 +211,7 @@
             this.Controls.Add(this.btnGuardar);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "PerfilEdicion";
-            this.Text = "PerfilEdicion";
-            this.Load += new System.EventHandler(this.PerfilEdicion_Load);
+            this.Text = "Edicion de Perfil";
             this.ResumeLayout(false);
             this.PerformLayout();
 

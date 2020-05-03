@@ -48,10 +48,7 @@ namespace Segundo_Parcial.GUI
             Close();
         }
 
-        private void PerfilEdicion_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         
 
