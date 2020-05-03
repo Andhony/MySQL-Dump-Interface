@@ -72,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\PerfilEdicion.resx">
+      <DependentUpon>PerfilEdicion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\PerfilesPrincipal.resx">
       <DependentUpon>PerfilesPrincipal.cs</DependentUpon>
     </EmbeddedResource>

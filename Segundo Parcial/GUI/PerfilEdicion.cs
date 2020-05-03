@@ -12,9 +12,40 @@ namespace Segundo_Parcial.GUI
 {
     public partial class PerfilEdicion : Form
     {
-        public PerfilEdicion()
+        Accion _AccionElegida = Accion.INSERTAR;
+        Boolean _PROCESAR = false;
+
+        public Boolean Procesar
+        {
+            get { return _PROCESAR; }
+            set { _PROCESAR = value; }
+        }
+
+        public enum Accion { INSERTAR, ACTUALIZAR };
+        
+        public PerfilEdicion(Accion pAccion)
         {
             InitializeComponent();
+            _AccionElegida = pAccion;
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            if (_AccionElegida == Accion.INSERTAR)
+            {
+                _PROCESAR = true;
+                Close();
+            }
+            else
+            {
+                _PROCESAR = true;
+                Close();
+            }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

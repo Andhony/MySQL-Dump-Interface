@@ -41,77 +41,88 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(131, 377);
+            this.btnGuardar.Location = new System.Drawing.Point(98, 306);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(84, 30);
+            this.btnGuardar.Size = new System.Drawing.Size(63, 24);
             this.btnGuardar.TabIndex = 0;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(309, 377);
+            this.btnCancelar.Location = new System.Drawing.Point(232, 306);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(78, 30);
+            this.btnCancelar.Size = new System.Drawing.Size(58, 24);
             this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Tag = "";
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txbID
             // 
-            this.txbID.Location = new System.Drawing.Point(131, 42);
+            this.txbID.Location = new System.Drawing.Point(98, 34);
+            this.txbID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbID.Name = "txbID";
-            this.txbID.Size = new System.Drawing.Size(100, 22);
+            this.txbID.Size = new System.Drawing.Size(76, 20);
             this.txbID.TabIndex = 2;
             // 
             // txbPuerto
             // 
-            this.txbPuerto.Location = new System.Drawing.Point(324, 42);
+            this.txbPuerto.Location = new System.Drawing.Point(243, 34);
+            this.txbPuerto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbPuerto.Name = "txbPuerto";
-            this.txbPuerto.Size = new System.Drawing.Size(100, 22);
+            this.txbPuerto.Size = new System.Drawing.Size(76, 20);
             this.txbPuerto.TabIndex = 3;
             // 
             // txbPerfil
             // 
-            this.txbPerfil.Location = new System.Drawing.Point(131, 122);
+            this.txbPerfil.Location = new System.Drawing.Point(98, 99);
+            this.txbPerfil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbPerfil.Name = "txbPerfil";
-            this.txbPerfil.Size = new System.Drawing.Size(293, 22);
+            this.txbPerfil.Size = new System.Drawing.Size(221, 20);
             this.txbPerfil.TabIndex = 4;
             // 
             // txbContraseña
             // 
-            this.txbContraseña.Location = new System.Drawing.Point(131, 277);
+            this.txbContraseña.Location = new System.Drawing.Point(98, 225);
+            this.txbContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbContraseña.Name = "txbContraseña";
-            this.txbContraseña.Size = new System.Drawing.Size(293, 22);
+            this.txbContraseña.Size = new System.Drawing.Size(221, 20);
             this.txbContraseña.TabIndex = 5;
             // 
             // txbServidor
             // 
-            this.txbServidor.Location = new System.Drawing.Point(131, 176);
+            this.txbServidor.Location = new System.Drawing.Point(98, 143);
+            this.txbServidor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbServidor.Name = "txbServidor";
-            this.txbServidor.Size = new System.Drawing.Size(293, 22);
+            this.txbServidor.Size = new System.Drawing.Size(221, 20);
             this.txbServidor.TabIndex = 6;
             // 
             // txbUsuario
             // 
-            this.txbUsuario.Location = new System.Drawing.Point(131, 231);
+            this.txbUsuario.Location = new System.Drawing.Point(98, 188);
+            this.txbUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbUsuario.Name = "txbUsuario";
-            this.txbUsuario.Size = new System.Drawing.Size(293, 22);
+            this.txbUsuario.Size = new System.Drawing.Size(221, 20);
             this.txbUsuario.TabIndex = 7;
             // 
             // txbBD
             // 
-            this.txbBD.Location = new System.Drawing.Point(131, 320);
+            this.txbBD.Location = new System.Drawing.Point(98, 260);
+            this.txbBD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbBD.Name = "txbBD";
-            this.txbBD.Size = new System.Drawing.Size(293, 22);
+            this.txbBD.Size = new System.Drawing.Size(221, 20);
             this.txbBD.TabIndex = 8;
             // 
             // PerfilEdicion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 446);
+            this.ClientSize = new System.Drawing.Size(364, 362);
             this.Controls.Add(this.txbBD);
             this.Controls.Add(this.txbUsuario);
             this.Controls.Add(this.txbServidor);
@@ -121,6 +132,7 @@
             this.Controls.Add(this.txbID);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGuardar);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PerfilEdicion";
             this.Text = "PerfilEdicion";
             this.ResumeLayout(false);
